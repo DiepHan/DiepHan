@@ -1,13 +1,14 @@
 ### Báo cáo học Array
-**1.Mảng**  
+### **1.Mảng**  
 - Ngôn ngữ lập trình C cung cấp cấu trúc dữ liệu gọi là mảng, được lưu trữ trong một tập hợp các dữ liệu cùng kiểu với độ dài cố định.  
 - Tất cả mảng đều bao gồm các vị trí nhớ liền kề nhau. Địa chỉ thấp nhất tương ứng với thành viên đầu tiền và địa chỉ cao nhất tương ứng với thành viên cuối cùng của mảng.  
 **Khai báo và sử dụng mảng**  
 - Cú pháp khai báo: ```<kiểu dữ liệu><tên mảng>[<số lượng phần tử>];```
     - Kiểu dữ liệu của mảng sẽ quy định kiểu dữ liệu của các phần tử có trong mảng.
-    - Tên mảng được đặt tên theo quy tắc đặt tên biến trong C/C++  
-    -  số lượng phần tử phải là 1 HẰNG SỐ.    
-**2.Mảng 1 chiều**  
+    - Tên mảng được đặt tên theo quy tắc đặt tên biến trong C 
+    -  số lượng phần tử phải là 1 HẰNG SỐ.  
+**2.Mảng 1 chiều**
+ 
 - Khai báo: VD: ```int array[n];```  
     - Trong đó, tên của mảng là *array* sẽ có thể chứa được n giá trị của kiểu cơ bản *int*. 
     - Trong thực hành, phần bộ nhớ cho n giá trị nguyên này được để dành riêng và được gán cho mảng này (mặc dù giá trị của các phần tử trong mảng chưa được xác định).   
