@@ -6,7 +6,7 @@
 - Cú pháp khai báo: ```<kiểu dữ liệu><tên mảng>[<số lượng phần tử>];```
     - Kiểu dữ liệu của mảng sẽ quy định kiểu dữ liệu của các phần tử có trong mảng.
     - Tên mảng được đặt tên theo quy tắc đặt tên biến trong C/C++  
-    -  số lượng phần tử phải là 1 HẰNG SỐ.  
+    -  số lượng phần tử phải là 1 HẰNG SỐ.    
 **2.Mảng 1 chiều**  
 - Khai báo: VD: ```int array[n];```  
     - Trong đó, tên của mảng là *array* sẽ có thể chứa được n giá trị của kiểu cơ bản *int*. 
@@ -16,8 +16,8 @@
     - Một cách để truy cập đến các phần tử này là dùng đến cặp kí tự ngoặc vuông dạng [k]. Trong đó k là chỉ số (hay vị trí thứ tự đếm từ 0). Như vậy, phần tử thứ k trong mảng array sẽ có cú pháp    
         `array[k]`
 
-    ```- Giá trị trả về của array[k] chính là giá trị mà nó chứa ở vị trí k. Thoạt nhìn thì cú pháp của việc truy cập này trông giống như cú pháp khi mảng array được khai báo nhưng về chức năng thì hoàn toàn khác nhau.  
-    - Một cách truy cập khác là dùng con trỏ số học để tham chiếu đến giá trị của các phần tử trong mảng.```
+   - Giá trị trả về của array[k] chính là giá trị mà nó chứa ở vị trí k. Thoạt nhìn thì cú pháp của việc truy cập này trông giống như cú pháp khi mảng array được khai báo nhưng về chức năng thì hoàn toàn khác nhau.  
+    - Một cách truy cập khác là dùng con trỏ số học để tham chiếu đến giá trị của các phần tử trong mảng.
 Bảng sau đây sẽ minh họa cách dùng của cả hai phương pháp:  
 
 | Vị trí phần tử    | 0         | 1             | 2             | n             |
